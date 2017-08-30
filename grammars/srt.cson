@@ -1,0 +1,59 @@
+'scopeName': 'source.policy'
+'name': 'policy'
+'fileTypes': ['policy']
+'foldingStartMarker' :'\{\s*$'
+'foldingStopMarker' : '^\s*\}'
+'patterns': [
+	{
+		'match': '\\bfor\\b'
+		'name': 'freelog-for'
+	},
+	{
+		'match': '\\busers\\b'
+		'name': 'freelog-users'
+	},
+	{
+		'match': '\\busergroups\\b'
+		'name': 'freelog-usergroups'
+	},
+	{
+		'match': '\\baccepting\\b'
+		'name': 'freelog-accepting'
+	},
+	{
+		'match': '\\bGENERAL_PUBLIC\\b'
+		'name': 'freelog-usergroups'
+	},
+	{
+		'match': '\\bgeneral_public\\b'
+		'name': 'freelog-usergroups'
+	},
+	{
+		'match': '\\bgrant access on\\b'
+		'name': 'freelog-access'
+	},
+	{
+		'match': '\\blicense\\b'
+		'name': 'freelog-for'
+	},
+	{
+		'match': '\\bper\\b'
+		'name': 'freelog-per'
+	},
+	{
+		'match': '\\b[1-9]+\\b',
+		'name': 'freelog-number'
+	},
+	{
+		'begin' : '<%'
+		'end' : '%>'
+		'patterns' : [
+			{'match': 'function'
+			'name': 'untranslated'}
+		]
+   }
+]
+# include字段，它的值有三种情况：
+# 调用另一个语言，例如值为 'text.html'时，表示在当前「规则」中应用 HTML 的语法。
+# 调用该「规则」自身，值为 '$self'，可以递归地去匹配文本。
+# 调用一个「仓库」，值为井号开头的 '#repoName'，后面会讲到在 repository字段中可以为一个「规则」命名。

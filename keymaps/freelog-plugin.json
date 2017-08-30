@@ -1,0 +1,8 @@
+{
+    "atom-workspace": {
+        "ctrl-alt-o": "freelog-plugin:toggle"
+    },
+    "atom-text-editor[data-grammar='text md']": {
+      "ctrl-alt-3": "Freelog:upload"
+    }
+}

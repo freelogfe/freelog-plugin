@@ -1,0 +1,11 @@
+for users myusers_A , myusers_B , myusers_C and usergroups myusers_groupA , myusers_groupB , myusers_groupC
+    grant access on
+        accepting license FREELOG_LICENSE
+        paying 1 per 2 view and paying 2 per 3 week
+
+for usergroups myusers_groupA , myusers_groupB , myusers_groupC
+    require nothing 
+for self
+    grant access on
+        accepting license FREELOG_LICENSE
+        paying 1 per 2 week

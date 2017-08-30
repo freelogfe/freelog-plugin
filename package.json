@@ -1,0 +1,30 @@
+{
+  "name": "freelog-plugin",
+  "main": "./lib/freelog-plugin",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "freelog",
+    "policy"
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "Freelog:login",
+      "Freelog:md-upload",
+      "Freelog:md-download",
+      "Freelog:beautify"
+    ]
+  },
+  "repository": "https://github.com/atom/freelog-plugin",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "antlr4": "^4.7.0",
+    "jquery": "^2.1.4",
+    "request": "^2.81.0",
+    "request-debug": "^0.2.0",
+    "underscore": "^1.8.3"
+  }
+}

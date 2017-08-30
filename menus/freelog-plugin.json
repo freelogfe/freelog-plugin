@@ -1,0 +1,38 @@
+{
+  "context-menu": {
+    "atom-text-editor[data-grammar='source policy']": [
+      {
+        "label": "Freelog beautify",
+        "command": "Freelog-plugin:beautify"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Freelog",
+          "submenu": [
+            {
+              "label": "login",
+              "command": "Freelog:login"
+            },
+            {
+              "label": "md upload",
+              "command": "Freelog:md-upload"
+            },
+            {
+              "label": "md download",
+              "command": "Freelog:md-download"
+            },
+            {
+              "label": "beautify",
+              "command": "Freelog:beautify"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
