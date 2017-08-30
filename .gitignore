@@ -1,7 +1,3 @@
 .DS_Store
-gen/*
 npm-debug.log
 node_modules
-
-#exclude
-!gen/README.md
