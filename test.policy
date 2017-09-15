@@ -1,11 +1,5 @@
-for users myusers_A , myusers_B , myusers_C and usergroups myusers_groupA , myusers_groupB , myusers_groupC
-    grant access on
-        accepting license FREELOG_LICENSE
-        paying 1 per 2 view and paying 2 per 3 week
-
-for usergroups myusers_groupA , myusers_groupB , myusers_groupC
-    require nothing 
-for self
-    grant access on
-        accepting license FREELOG_LICENSE
-        paying 1 per 2 week
+This contract shall commence with effect from 2017-12-12 03:30 and shall continue until 2017-12-21 03:30 unless terminated earlier in accordance with its terms and conditions
+For userA:
+ in begining:proceed to suspend on accepting license license_A
+  in activate: proceed to suspend on visit_increment of 1
+in suspend : proceed to activate on account_settled
