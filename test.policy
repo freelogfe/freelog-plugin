@@ -1,5 +1,8 @@
-This contract shall commence with effect from 2017-12-12 03:30 and shall continue until 2017-12-21 03:30 unless terminated earlier in accordance with its terms and conditions
-For userA:
- in begining:proceed to suspend on accepting license license_A
-  in activate: proceed to suspend on visit_increment of 1
-in suspend : proceed to activate on account_settled
+For userA in the following states:
+    in begining :
+      proceed to suspend on accepting license license_A
+    in activate :
+      proceed to suspend on visit_increment of 1
+    in suspend :
+      proceed to activate on account_settled
+    I agree to authorize token in active

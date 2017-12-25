@@ -15,17 +15,19 @@
       "Freelog:beautify"
     ]
   },
-  "repository": "https://github.com/atom/freelog-plugin",
+  "repository": "https://github.com/nergalyang/freelog-plugin",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "antlr4": "^4.7.0",
+    "antlr4": "^4.7.1",
     "jquery": "^2.1.4",
-    "policy_lang": "0.0.9",
-    "request": "^2.81.0",
+    "request": "^2.83.0",
     "request-debug": "^0.2.0",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "freelog_policy_compiler": "0.0.15"
   }
 }
