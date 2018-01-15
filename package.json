@@ -1,7 +1,7 @@
 {
   "name": "freelog-plugin",
   "main": "./lib/freelog-plugin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A short description of your package",
   "keywords": [
     "freelog",
@@ -28,7 +28,5 @@
     "freelog_policy_compiler": "0.0.21",
     "underscore": "^1.8.3"
   },
-  "devDependencies": {
-
-  }
+  "devDependencies": {}
 }
