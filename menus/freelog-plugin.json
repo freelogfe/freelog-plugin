@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor[data-grammar='source policy']": [
       {
-        "label": "Freelog beautify",
-        "command": "Freelog-plugin:beautify"
+        "label": "Freelog Beautify",
+        "command": "Freelog:beautify"
       }
     ]
   },
@@ -15,20 +15,24 @@
           "label": "Freelog",
           "submenu": [
             {
-              "label": "login",
+              "label": "Freelog Login",
               "command": "Freelog:login"
             },
             {
-              "label": "md upload",
+              "label": "Markdown Upload",
               "command": "Freelog:md-upload"
             },
             {
-              "label": "md download",
-              "command": "Freelog:md-download"
+              "label": "Policy Upload",
+              "command": "Freelog:policy-upload"
             },
             {
-              "label": "beautify",
+              "label": "Policy Beautify",
               "command": "Freelog:beautify"
+            },
+            {
+              "label": "Markdown Download",
+              "command": "Freelog:md-download"
             }
           ]
         }
