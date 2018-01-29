@@ -22,10 +22,10 @@
   },
   "dependencies": {
     "antlr4": "^4.7.1",
+    "freelog_policy_compiler": "^0.1.10",
     "jquery": "^2.1.4",
     "request": "^2.83.0",
     "request-debug": "^0.2.0",
-    "freelog_policy_compiler": "0.0.21",
     "underscore": "^1.8.3"
   },
   "devDependencies": {}

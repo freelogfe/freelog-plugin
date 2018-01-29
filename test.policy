@@ -1,8 +1,3 @@
-For userA in the following states:
+for nodes:
     in begining :
       proceed to suspend on accepting license license_A
-    in activate :
-      proceed to suspend on visit_increment of 1
-    in suspend :
-      proceed to activate on account_settled
-    I agree to authorize token in active
