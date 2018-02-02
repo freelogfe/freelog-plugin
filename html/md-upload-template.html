@@ -14,10 +14,21 @@
         <div class="row">
             <div class="col-md-12 relative"><div>请输入资源名称: </div><input class="native-key-bindings" id="freelog-resource-name"></div>
         </div>
-        <br/>        <br/>        <br/>
-        <div>
-            <div class="col-md-offset-4 col-md-2"><button class="btn btn-default" id="jwtUploadClk">上传</button></div>
-            <div class="col-md-offset-1 col-md-2"><button class="btn btn-default" id="logoutClk">退出并注销登陆</button></div>
-        </div>
+        <div class="row">
+            <div class="col-md-12 relative">
+                  <div>创建policy: </div>
+                  <textarea id="freelog-policy-text" placeholder="请上传相应的policy（非必填）" class="native-key-bindings"></textarea>
+<p  class="warning-message" id="policy-error-notifications"></p>
+            </div>
+
+            <div class="col-md-12 relative">
+              <button class="btn" id="beautify">校验</button>
+            </div>
+
+            <br/><br/><br/>
+            <div>
+                <div class="col-md-offset-3 col-md-2"><button class="btn btn-default" id="jwtUploadClk">上传</button></div>
+                <div class="col-md-offset-1 col-md-2"><button class="btn btn-default" id="logoutClk">退出并注销登陆</button></div>
+            </div>
     </div>
 </div>
