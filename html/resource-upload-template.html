@@ -5,7 +5,13 @@
     </div>
     <div class="flcontent">
       <div class="row">
-          <div class="col-md-offset-5 col-md-4"><h3>Markdown 上传： </h3></div>
+          <div class="col-md-offset-5 col-md-4">
+            <h3>资源类型： </h3>
+            <select id="resource-type" class="" name="">
+                <option value="markdown">markdown</option>
+                <option value="reveal_slide">review slider</option>
+            </select>
+          </div>
       </div>
         <div class="row">
             <div class="col-md-12 relative"><div>已登陆账户: </div><input readonly class="native-key-bindings" id="jwt-username"> </div>
@@ -15,12 +21,17 @@
             <div class="col-md-12 relative"><div>请输入资源名称: </div><input class="native-key-bindings" id="freelog-resource-name"></div>
         </div>
         <div class="row">
-            <div class="col-md-12 relative">
+            <div class="col-md-8 relative">
                   <div>创建policy: </div>
-                  <textarea id="freelog-policy-text" placeholder="请上传相应的policy（非必填）" class="native-key-bindings"></textarea>
-<p  class="warning-message" id="policy-error-notifications"></p>
+                  <textarea id="freelog-policy-text" placeholder="请填入相应的policy（非必填）" class="native-key-bindings"></textarea>
+                  <p  class="warning-message" id="policy-error-notifications"></p>
             </div>
+            <div class="col-md-4 relative">
+                  <div>可选择已保存的policy: </div>
+                  <select id="policy-select">
 
+                  </select>
+            </div>
             <div class="col-md-12 relative">
               <button class="btn" id="beautify">校验</button>
             </div>

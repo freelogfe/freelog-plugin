@@ -19,8 +19,12 @@
               "command": "Freelog:login"
             },
             {
-              "label": "Markdown Upload",
-              "command": "Freelog:md-upload"
+              "label": "Resource Upload",
+              "command": "Freelog:resource-upload"
+            },
+            {
+              "label": "Markdown Download",
+              "command": "Freelog:md-download"
             },
             {
               "label": "Policy Upload",
@@ -31,8 +35,8 @@
               "command": "Freelog:beautify"
             },
             {
-              "label": "Markdown Download",
-              "command": "Freelog:md-download"
+              "label": "Policy Management",
+              "command": "Freelog:policy-management"
             }
           ]
         }
