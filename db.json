@@ -1,0 +1,9 @@
+{
+  "policies": [
+    {
+      "id": "HJh-blDUG",
+      "name": "policy1",
+      "text": "for node :\n  in <initial> :\n    terminate"
+    }
+  ]
+}
