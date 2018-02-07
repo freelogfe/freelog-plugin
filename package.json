@@ -10,8 +10,10 @@
   "activationCommands": {
     "atom-workspace": [
       "Freelog:login",
-      "Freelog:md-upload",
+      "Freelog:policy-upload",
+      "Freelog:resource-upload",
       "Freelog:md-download",
+      "Freelog:policy-management",
       "Freelog:beautify"
     ]
   },

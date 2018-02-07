@@ -23,12 +23,12 @@
               "command": "Freelog:resource-upload"
             },
             {
-              "label": "Markdown Download",
-              "command": "Freelog:md-download"
-            },
-            {
               "label": "Policy Upload",
               "command": "Freelog:policy-upload"
+            },
+            {
+              "label": "Markdown Download",
+              "command": "Freelog:md-download"
             },
             {
               "label": "Policy Beautify",
