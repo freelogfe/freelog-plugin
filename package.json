@@ -1,32 +1,82 @@
 {
-  "name": "freelog-plugin",
-  "main": "./lib/freelog-plugin",
-  "version": "0.0.13",
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Phil\\AppData\\Local\\Temp\\d-11816-7580-m4bdqr.uchvbzkt9\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Phil\\AppData\\Local\\Temp\\d-11816-7580-m4bdqr.uchvbzkt9\\package.tgz",
+        "spec": "C:\\Users\\Phil\\AppData\\Local\\Temp\\d-11816-7580-m4bdqr.uchvbzkt9\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Phil\\AppData\\Local\\Temp\\apm-install-dir-11816-7580-1pimczj.s34dzhbyb9"
+    ]
+  ],
+  "_from": "..\\d-11816-7580-m4bdqr.uchvbzkt9\\package.tgz",
+  "_id": "freelog-plugin@0.0.12",
+  "_inCache": true,
+  "_location": "/freelog-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Phil\\AppData\\Local\\Temp\\d-11816-7580-m4bdqr.uchvbzkt9\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Phil\\AppData\\Local\\Temp\\d-11816-7580-m4bdqr.uchvbzkt9\\package.tgz",
+    "spec": "C:\\Users\\Phil\\AppData\\Local\\Temp\\d-11816-7580-m4bdqr.uchvbzkt9\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-11816-7580-m4bdqr.uchvbzkt9\\package.tgz",
+  "_shasum": "403ad3be82b9419d09ec6f2cbaa9b0ecdd7bbf90",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Phil\\AppData\\Local\\Temp\\d-11816-7580-m4bdqr.uchvbzkt9\\package.tgz",
+  "_where": "C:\\Users\\Phil\\AppData\\Local\\Temp\\apm-install-dir-11816-7580-1pimczj.s34dzhbyb9",
+  "activationCommands": {
+    "atom-workspace": [
+      "Freelog:login",
+      "Freelog:policy-upload",
+      "Freelog:resource-upload",
+      "Freelog:md-download",
+      "Freelog:policy-management",
+      "Freelog:beautify"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/nergalyang/freelog-plugin/issues"
+  },
+  "dependencies": {
+    "antlr4": "^4.7.1",
+    "freelog_policy_compiler": "^0.1.18",
+    "jquery": "^2.1.4",
+    "lowdb": "1.0.0",
+    "request": "^2.83.0",
+    "request-debug": "^0.2.0",
+    "shortid": "2.2.8",
+    "underscore": "^1.8.3"
+  },
   "description": "A short description of your package",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/nergalyang/freelog-plugin#readme",
   "keywords": [
     "freelog",
     "policy"
   ],
-  "activationCommands": {
-    "atom-workspace": [
-      "Freelog:login",
-      "Freelog:md-upload",
-      "Freelog:md-download",
-      "Freelog:beautify"
-    ]
-  },
-  "repository": "https://github.com/nergalyang/freelog-plugin",
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+  "main": "./lib/freelog-plugin",
+  "name": "freelog-plugin",
+  "optionalDependencies": {},
+  "readme": "# freelog-plugin package\n\nA short description of your package.\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n\n# free-log-mark-down-plugin package\n//4f342f30b11dd0f5e0d2915ff7c04549e49d9931\nThis guy is lazy yet. He's not goona write any thing!!!~!\n# free-log-mark-down-plugin package\n//4f342f30b11dd0f5e0d2915ff7c04549e49d9931\nThis guy is lazy yet. He's not goona write any thing!!!~!\n# free-log-mark-down-plugin package\n//71dd03444672ea5798152966dd39049b1c1d8cd0\nThis guy is lazy yet. He's not goona write any thing!!!!!!!!\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nergalyang/freelog-plugin.git"
   },
-  "dependencies": {
-    "antlr4": "^4.7.1",
-    "freelog_policy_compiler": "^0.1.10",
-    "jquery": "^2.1.4",
-    "request": "^2.83.0",
-    "request-debug": "^0.2.0",
-    "underscore": "^1.8.3"
-  },
-  "devDependencies": {}
+  "version": "0.0.12"
 }
